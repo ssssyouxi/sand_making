@@ -1,0 +1,170 @@
+.top_r p{
+	margin-bottom: 0;
+	line-height: 75%;
+	font-size: 12px;
+}
+.nav_ul{
+	position: relative;
+	left: 30px;
+}
+.nav_ul ul li{
+	font-size: 12px;
+}
+.nav ul a{
+	padding:0;
+}
+.nav ul a:hover{
+	color: white;
+}
+.nav a{
+	line-height: 43px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.back-i{
+	width: 100%;
+	height:auto;
+	overflow: hidden;
+}
+.back-img{
+	background-image: url('../img/bannermax.png');
+	height:330px;
+	width:1920px;
+	position: relative;
+	right:280px;
+}
+article{
+	width:73% !important;
+}
+section{
+	margin-top:40px;
+}
+.title1{
+	color: #474747;
+	font-size: 20px;
+	padding-bottom:15px;
+}
+.title1_1{
+	padding-left:10px;
+}
+.title2{
+	color: #30303d;
+	font-size: 13px;
+}
+
+.adv{
+	color: #474747;
+	font-size: 18px;
+}
+.adv_tit{
+	color: #7c0300;
+	font-size: 14px;
+	margin:0;
+}
+.adv_art{
+	color: #2d2c2c;
+	font-size: 13px;
+}
+.app{
+	padding-top: 6px;
+}
+.app_tit{
+	padding-right: 80px;
+}
+.app_img{
+	padding-right: 4px;
+	padding-top:20px; 
+}
+.ad_ap{
+	background-color: #fcfcfc;
+}
+.title_p1{
+	color:#7c0300;
+	font-size:18px;
+}
+.title_p2{
+	color:#7c0300;
+	font-weight: bold;
+	font-size:13px;
+}
+.title_p3{
+	font-size:13px;
+}
+.title_p4{
+	font-size:13px;
+	color:#474747;
+}
+.prod{
+	padding-top:40px;
+}
+.sec p{
+	margin-bottom:5px;
+}
+.product{
+	margin-bottom:220px;
+}
+.clearfix{
+	margin-bottom:40px;
+}
+.con_p1{
+	margin: 0;
+	color: #333;
+	font-size: 18px;
+}
+.con_p2{
+	color:#4f4c4c;
+}
+.con_tit1{
+	color: #4f4c4c;
+	font-size: 18px;
+}
+.form-group{
+	margin-bottom: 10px;
+}
+.con_p{
+	background-image: url("../img/little.png");
+	background-repeat:no-repeat;
+    background-position:left center;
+    padding-left: 25px;
+    color: #333;
+}
+form,form .xb6,form .xb12{
+	padding-left: 0 !important;
+}
+footer{
+	width: 100%;
+	height: 80px;
+	background-color: #30303d;
+}
+footer div{
+	padding-top: 13px;
+}
+footer p{
+	color: white;
+	font-size: 12px;
+	margin-bottom: 0;
+	text-align: center;
+}
+@media(min-width:1200px){
+	.app{
+		float: right;
+	}
+}
+@media(max-width: 1199px){
+	.app{
+		float:left;
+	}
+}
