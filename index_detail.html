@@ -192,58 +192,62 @@
       <div class="line-big">
         <div class="xb6 ">
           <p><img src="img/contact.png"><span class="con_tit1"><b>&nbsp;&nbsp;&nbsp;&nbsp;CONTACT US FOR INFORMATION</b></span></p>
-          <form method="post" action="#" class=" xb12">
+          <form method="post" action="http://data.break-day.com/message_do.php" class=" xb12">
             <div class="form-group xb6">
               <div class="label float-left">
                 <label for="username">Name:</label>
               </div>
               <div class="field float-right">
-                <input type="text" class="input radius-none " id="username" name="username" size="14"/>
+                <input type="text" class="input radius-none " id="name" name="name" size="14"/>
               </div>
             </div>
             <div class="form-group xb6">
               <div class="label float-left">
-                <label for="password">Country:</label>
+                <label>Country:</label>
               </div>
               <div class="field float-right">
-                <input type="text" class="input radius-none " id="money" name="country" size="14"/>
+                <input type="text" class="input radius-none " name="country_name" size="14"/>
               </div>
             </div>
             
             <div class="form-group xb6">
               <div class="label float-left">
-                <label for="username">Tel:</label>
+                <label>Tel:</label>
               </div>
               <div class="field float-right">
-                <input type="text" class="input radius-none" id="username" name="username" size="14"/>
+                <input type="text" class="input radius-none"  name="tel" id="telphone" size="14"/>
               </div>
             </div>
             <div class="form-group xb6">
               <div class="label float-left">
-                <label for="password">Product:</label>
+                <label>Product:</label>
               </div>
               <div class="field float-right">
-                <input type="text" class="input radius-none" id="money" name="country" size="14"/>
+                <select  class="input1 radius-none"  name="product"/>
+                  <option value="Mobile crusher">Mobile crusher</option>
+                  <option value="Stationary crusher">Stationary crusher</option>
+                  <option value="Grinding mill">Grinding mill</option>
+                  <option value="Mining machine">Mining machine</option></select>
               </div>
             </div>
             <div class="form-group xb12">
               <div class="label float-left">
-                <label for="password">E-mail:</label>
+                <label>E-mail:</label>
               </div>
               <div class="field   float-right">
-                <input type="text" class="input radius-none" id="money" name="country" size="47"/>
+                <input type="text" class="input radius-none"  name="email" size="47"/>
               </div>
             </div>
             <div class="form-group xb12">
               <div class="label float-left">
-                <label for="password">Message:</label>
+                <label>Message:</label>
               </div>
               <div class="field   float-right">
-                <textarea rows="3" cols="49" class="input radius-none"></textarea>
+                <textarea rows="3" cols="49" class="input radius-none" name="message"></textarea>
               </div>
             </div>
             
-            <div class="xb12"><button class="button bg-dot float-right xb3">Send Now</button></div>
+            <div class="xb12"><button class="button bg-dot float-right xb3" onclick="this.form.submit">Send Now</button></div>
           </form>            
           <div class="clearfix"></div>
         </div>
