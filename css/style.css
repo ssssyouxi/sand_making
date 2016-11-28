@@ -101,6 +101,9 @@ section{
 .prod{
 	padding-top:40px;
 }
+.prod a{
+	text-decoration: none;
+}
 .sec p{
 	margin-bottom:5px;
 }
