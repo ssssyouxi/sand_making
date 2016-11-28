@@ -9,8 +9,9 @@ $(function(){
 		$("select").html("<option value='Mobile crusher'>Mobile crusher</option><option value='Stationary crusher'>Stationary crusher</option><option value='Grinding mill'>Grinding mill</option><option value='Mining machine'>Mining machine</option>");
 		$("button").css('width','100%');
 		$("select").css('color','#a1a1a1');
+		$(".banner").attr('src','./img/banner2.png')
 	}
-	if(obj=320){
-		//$("html").css('width', '113%');
+	if(obj<=414){
+		$(".banner").attr('src','./img/banner.png');
 	}
 })
