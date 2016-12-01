@@ -29,7 +29,9 @@
 
 
 /*正体*/
-
+article{
+	max-width: 1000px;
+}
 .art{
 	width:73% !important;
 }
@@ -106,6 +108,9 @@ section{
 }
 .sec p{
 	margin-bottom:5px;
+}
+.spec{
+	margin-bottom: 0px !important;
 }
 .product{
 	margin-bottom:220px;
@@ -187,6 +192,13 @@ footer p{
 	.app{
 		float: right;
 	}
+	.img_pro1{
+		height: 329px;
+	}
+	.img_pro3{
+		height:353px;
+	}
+
 }
 @media(max-width: 1199px){
 	.app{

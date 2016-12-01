@@ -1,8 +1,15 @@
 $(function(){
 	var obj=$(window).width();
 	if(obj<1200){
+		if(obj>800){
+			$(".im_1").css('margin-right','0');
+			$(".im_3").css('margin-right','0');
+			$(".im_2").css('margin-left','0');
+			$(".im_4").css('margin-left','0');
+		}else{
 		$(".img-responsive").css('margin', '0 auto');
 	}
+}
 	if(obj<=768){
 
 		$("article").removeClass('art');
