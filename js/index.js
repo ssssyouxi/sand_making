@@ -1,5 +1,21 @@
 $(function(){
 	var obj=$(window).width();
+	if(obj>=1200){
+		var l=$('.img_pro1').height();
+		var r=$('.img_pro2').height();
+		if(l>r){
+			$('.img_pro2').height(l);
+		}else{
+			$('.img_pro1').height(r);
+		}
+		var l1=$('.img_pro3').height();
+		var r1=$('.img_pro4').height();
+		if(l1>r1){
+			$('.img_pro4').height(l1);
+		}else{
+			$('.img_pro3').height(r1);
+		}
+	}
 	if(obj<1200){
 		if(obj>800){
 			$(".im_1").css('margin-right','0');

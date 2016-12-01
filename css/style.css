@@ -82,7 +82,7 @@ section{
 	margin: 0 auto;
 }
 .ad_ap{
-	background-color: #fcfcfc;
+	background-color: #666;
 }
 .title_p1{
 	color:#7c0300;
@@ -191,12 +191,6 @@ footer p{
 @media(min-width:1200px){
 	.app{
 		float: right;
-	}
-	.img_pro1{
-		height: 329px;
-	}
-	.img_pro3{
-		height:353px;
 	}
 
 }
