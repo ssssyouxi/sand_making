@@ -82,7 +82,7 @@ section{
 	margin: 0 auto;
 }
 .ad_ap{
-	background-color: #666;
+	background-color: #fcfcfc;
 }
 .title_p1{
 	color:#7c0300;
@@ -140,10 +140,6 @@ section{
     padding-left: 25px;
     color: #333;
 }
-
-
-
-
 form input,form textarea,form select{
   width:100%;
   border:1px solid #aaa;
