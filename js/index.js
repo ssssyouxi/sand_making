@@ -35,9 +35,9 @@ $(function(){
 		$(".selec").html("<option value='Mobile crusher'>Mobile crusher</option><option value='Stationary crusher'>Stationary crusher</option><option value='Grinding mill'>Grinding mill</option><option value='Mining machine'>Mining machine</option>");
 		$("button").css('width','100%');
 		$(".selec").css('color','#a1a1a1');
-		$(".banner").attr('src','./img/banner2.png')
+		$(".banner").attr('src','img/banner2.jpg')
 	}
 	if(obj<=414){
-		$(".banner").attr('src','./img/banner.png');
+		$(".banner").attr('src','img/banner.jpg');
 	}
 })
