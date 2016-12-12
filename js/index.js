@@ -27,7 +27,6 @@ $(function(){
 	}
 }
 	if(obj<=768){
-
 		$("article").removeClass('art');
 		$("article").css('width','100%');
 		$("table").remove();
